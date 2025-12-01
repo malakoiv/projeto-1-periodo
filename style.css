@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+   width: 100%; 
+    align-content: center;
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border-bottom: solid 2px black;
+    z-index: 1000;
+}
+.navbar-links{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+.navbar-links li{
+margin-left: 20px;
+
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: color 0.9;
+}
+.navbar-links li a:hover{
+    color: white;
+}
+.navbar h1{
+    font-size: 20px;
+    
+}
+button{
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    border: solid 2px black;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+ section{
+    height: 100vh; 
+    font-size: 32px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inicio { background: white;}
+
+#sobre  { background: black; 
+color: white;}
+
+
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nome{
+    margin-bottom: 10px;
+    
+}
+.email{
+    
+    margin-bottom: 10px;
+}
+.mensagem{
+    margin-bottom: 10px;
+    
+}
+input{
+    border-radius: 10px;
+
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.imagem img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+#imagem{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px
+}
+#fotozuada{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.instagram{
+    margin-left: auto;
+}
+
+
